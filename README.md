@@ -4,7 +4,7 @@ RESTful API untuk manajemen data buku yang dibangun menggunakan bahasa pemrogram
 
 ---
 
-## 📋 Daftar Fitur
+## Daftar Fitur
 
 1. **Operasi CRUD Lengkap**:
    - `POST /api/books`: Menambahkan buku baru.
@@ -27,7 +27,7 @@ RESTful API untuk manajemen data buku yang dibangun menggunakan bahasa pemrogram
 
 ---
 
-## 📂 Struktur Proyek
+## Struktur Proyek
 
 ```
 Book Management API/
@@ -53,14 +53,14 @@ Book Management API/
 
 ---
 
-## 🛠️ Prasyarat (Prerequisites)
+## Prasyarat (Prerequisites)
 
 - **Go (Golang)**: Versi 1.20 atau yang lebih baru (dapat diperiksa dengan `go version`).
 - **Git**
 
 ---
 
-## 🚀 Panduan Menjalankan Aplikasi
+## Panduan Menjalankan Aplikasi
 
 ### 1. Clone Repository (Jika belum)
 ```bash
@@ -95,7 +95,7 @@ go run main.go
 
 ---
 
-## 🧪 Menjalankan Automated Tests
+## Menjalankan Automated Tests
 
 Aplikasi dilengkapi dengan test suite lengkap menggunakan in-memory SQLite database sehingga pengujian berjalan cepat, independen, dan terisolasi.
 
@@ -130,7 +130,7 @@ ok      book-management-api/tests       0.397s
 
 ---
 
-## 📖 Dokumentasi Endpoint API
+## Dokumentasi Endpoint API
 
 Base URL: `http://localhost:8080`
 
@@ -146,7 +146,7 @@ Base URL: `http://localhost:8080`
 
 ---
 
-## 📦 Standarisasi Format Response
+## Standarisasi Format Response
 
 ### 1. Format Response Sukses (200 / 201)
 ```json
@@ -167,7 +167,7 @@ Base URL: `http://localhost:8080`
 
 ---
 
-## 💡 Contoh Penggunaan dengan cURL
+## Contoh Penggunaan dengan cURL
 
 ### 1. Tambah Buku (POST)
 ```bash
@@ -217,6 +217,6 @@ curl -X DELETE http://localhost:8080/api/books/1
 
 ---
 
-## 👤 Pengembang
+## Pengembang
 
 - **Repositori**: [lysonmnk/Book-Management-API](https://github.com/lysonmnk/Book-Management-API)
